@@ -59,15 +59,15 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-1. Clone the `https://github.com/ProjectPythia/Prototype Cookbook` repository:
+1. Clone the `https://github.com/ChenYuan8/proto-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/Prototype Cookbook.git
+    git clone https://github.com/ChenYuan8/proto-cookbook.git
    ```
 
-1. Move into the `Prototype Cookbook` directory
+1. Move into the `proto-cookbook` directory
    ```bash
-   cd Prototype Cookbook
+   cd proto-cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash

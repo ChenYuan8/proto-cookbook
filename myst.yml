@@ -4,7 +4,7 @@ extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
   title: Prototype Project Repo
-  github: https://github.com/projectpythia/cookbook-template
+  github: https://github.com/ChenYuan8/proto-cookbook
   authors:
     - name: Chen Yuan
   copyright: '2025'
@@ -13,10 +13,9 @@ project:
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-    - title: Visualization Notebooks
+    - title: Basic Visualization Notebooks
       children:
         - file: notebooks/notebook1.ipynb
+    - title: Interactive Visualization Notebooks
+      children:
         - file: notebooks/notebook2.ipynb
-  jupyter:
-      binder:
-        repo: projectpythia/cookbook-template
