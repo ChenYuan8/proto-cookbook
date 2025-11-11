@@ -7,33 +7,27 @@
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers working with ERA-5 data in Python.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook will be useful for anyone who wants to learn how to handle and analyze climate reanalysis data using Python, particularly the ERA5 dataset. By following the recipes, you will gain practical skills in data preprocessing, visualization, and interactive data exploration.
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
-
-### Contributors
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
+[Chen Yuan](https://github.com/ChenYuan8)
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook currently consists of two notebooks that access, regrid, and visualize the ARCO ERA-5 repository. 
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 1 ( "Basic Visualization" )
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+This notebook reads in 2-meter temperature ERA-5 grid, regrids from Gaussian to Cartesian coordinates, and visualizes the data with Matplotlib and Cartopy.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Section 2 ( "Interactive Visualization" )
 
-(Add content for this section, e.g., "Example workflows include ... ")
+This notebook reads in sea surface temperature and 2-meter temperature ERA-5 grid, regrids from Gaussian to Cartesian coordinates, and visualizes the data in an interactive manner using [Geoviews](https://geoviews.org).
 
 ## Running the Notebooks
 
@@ -65,17 +59,15 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/Prototype Cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/Prototype Cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `Prototype Cookbook` directory
    ```bash
-   cd cookbook-example
+   cd Prototype Cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
